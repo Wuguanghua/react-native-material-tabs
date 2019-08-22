@@ -24,6 +24,7 @@ const Bar = styled(Animated.View)`
   shadow-offset: { width: 0.5, height: 0.4 }
 `;
 
+
 interface IndicatorProps {
   color: string;
   tabWidth: number;

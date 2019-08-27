@@ -19,9 +19,9 @@ const Bar = styled(Animated.View)`
   border-radius: 1;
   elevation: 3;
   shadow-color: ${(props: BarProps) => props.color};
-  shadow-opacity: 0.5;
+  shadow-opacity: 0.1;
   shadow-radius: 2;
-  shadow-offset: { width: 0.5, height: 0.4 }
+  shadow-offset: { width: 0, height: 0 }
 `;
 
 
